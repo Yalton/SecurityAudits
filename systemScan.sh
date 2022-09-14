@@ -1,6 +1,6 @@
 #!/bin/bash
 SCANDIR=$1
-$IPRANGE=$2
+IPRANGE=$2
 LOGFILE=$(date +"%d-%m-%Y").log
 
 #Run Chkrootkit
