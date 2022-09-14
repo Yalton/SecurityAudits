@@ -1,7 +1,6 @@
 #!/bin/bash
 SCANDIR=$1
 $IPRANGE=$2
-#SCANDIR=/mnt/nas/shared/Network/NUC/systemscans
 LOGFILE=$(date +"%d-%m-%Y").log
 
 #Run Chkrootkit & Send results to NAS
